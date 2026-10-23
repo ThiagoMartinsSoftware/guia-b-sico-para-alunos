@@ -1,0 +1,66 @@
+
+/* Configurações gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f5;
+    margin: 0;
+    color: #333;
+}
+
+/* Menu */
+nav {
+    background-color: #e88b9c;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Conteúdo principal */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Título principal */
+h1 {
+    color: #d94f70;
+    text-align: center;
+}
+
+/* Títulos das seções */
+h2 {
+    color: #d94f70;
+}
+
+/* Produtos */
+#bolos div {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Linha divisória */
+hr {
+    border: 1px solid #f0b6c1;
+    margin: 25px 0;
+}
+
+/* Rodapé */
+footer {
+    background-color: #e88b9c;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}

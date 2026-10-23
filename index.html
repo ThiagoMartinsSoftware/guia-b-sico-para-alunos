@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doce Momento</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <nav>
+        <ul> //lista nao ordenada
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#bolos">Nossos bolos</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <div class="container">
+
+        <!-- INÍCIO -->
+        <div id="inicio">
+            <h1>Doce Momento</h1>
+            <p>Os melhores bolos para adoçar o seu dia!</p>
+        </div>
+
+        <hr>
+
+        <!-- PRODUTOS -->
+        <section id="bolos">
+            <h2>Nossos bolos</h2>
+
+            <div>
+                <h3>Bolo de Chocolate</h3>
+                <p>Bolo fofinho com cobertura de chocolate.</p>
+                <p>Preço: R$ 45,00</p>
+
+                <button onclick="fazerPedido('Bolo de Chocolate')">
+                    Fazer pedido
+                </button>
+            </div>
+
+            <div>
+                <h3>Bolo de Cenoura</h3>
+                <p>Bolo de cenoura com cobertura cremosa.</p>
+                <p>Preço: R$ 35,00</p>
+
+                <button onclick="fazerPedido('Bolo de Cenoura')">
+                    Fazer pedido
+                </button>
+            </div>
+
+            <div>
+                <h3>Bolo de Morango</h3>
+                <p>Bolo recheado com creme e morangos.</p>
+                <p>Preço: R$ 55,00</p>
+
+                <button onclick="fazerPedido('Bolo de Morango')">
+                    Fazer pedido
+                </button>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- SOBRE -->
+        <section id="sobre">
+            <h2>Sobre nós</h2>
+
+            <p>
+                Somos uma loja de bolos que busca oferecer
+                qualidade, sabor e um ótimo atendimento.
+            </p>
+        </section>
+
+    </div>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>Doce Momento - Linhares, ES</p>
+        <p>&copy; 2026 Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
